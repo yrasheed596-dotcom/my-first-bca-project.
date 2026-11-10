@@ -50,3 +50,29 @@ body > p {
     text-align: center;
     margin-top: 20px;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background-color: #1e293b;
+}
+
+nav h2 {
+    color: #38bdf8;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+    color: white;
+}
+
+li:hover {
+    color: #38bdf8;
+}
